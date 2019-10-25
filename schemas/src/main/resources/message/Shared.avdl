@@ -1,0 +1,13 @@
+@namespace("com.brokencircuits.kissad.messages")
+protocol Simple {
+
+  enum SubOrDub {
+    SUB,
+    DUB
+  }
+
+  enum VideoSource {
+    RAPIDVIDEO
+  }
+
+}

@@ -1,0 +1,11 @@
+@namespace("com.brokencircuits.kissad.messages")
+protocol Simple {
+
+  record KissShowMessage {
+    string url;
+    string name;
+    union{null, int} seasonNumber;
+    boolean isActive;
+    union{null, string} skipEpisodeString = null;
+  }
+}
